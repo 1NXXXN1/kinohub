@@ -5,13 +5,13 @@ export const useFavorite = (movie: Movie) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem('kinohub-favorites');
+    const stored = localStorage.getItem('nxmedia-favorites');
     const favorites: Movie[] = stored ? JSON.parse(stored) : [];
     setIsFavorite(favorites.some((fav) => fav.id === movie.id));
   }, [movie]);
 
   const toggleFavorite = () => {
-    const stored = localStorage.getItem('kinohub-favorites');
+    const stored = localStorage.getItem('nxmedia-favorites');
     let favorites: Movie[] = stored ? JSON.parse(stored) : [];
 
     if (favorites.some((fav) => fav.id === movie.id)) {
@@ -22,7 +22,7 @@ export const useFavorite = (movie: Movie) => {
       setIsFavorite(true);
     }
 
-    localStorage.setItem('kinohub-favorites', JSON.stringify(favorites));
+    localStorage.setItem('nxmedia-favorites', JSON.stringify(favorites));
   };
 
   return { isFavorite, toggleFavorite };

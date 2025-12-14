@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const movie = await getMovie((await params).id);
 
   return {
-    title: `KinoHub — ${movie.name}`,
+    title: `NX Media — ${movie.name}`,
     description: movie.description,
     openGraph: {
       title: movie.name,

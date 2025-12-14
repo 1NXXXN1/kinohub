@@ -9,7 +9,7 @@ export const Footer = () => {
       <span className='block sm:text-center'>
         © {year}{' '}
         <Link href='/' className=''>
-          KinoHub™
+          NX Media™
         </Link>
       </span>
     </footer>

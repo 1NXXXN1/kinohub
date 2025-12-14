@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'KinoHub — Сериалы',
+  title: 'NX Media — Сериалы',
   description: 'Лучшие сериалы на каждый день',
 };
 

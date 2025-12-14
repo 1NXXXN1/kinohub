@@ -16,7 +16,7 @@ describe('FavoritesList', () => {
   });
 
   it('renders movies from localStorage', () => {
-    localStorage.setItem('kinohub-favorites', JSON.stringify(mockMovies));
+    localStorage.setItem('nxmedia-favorites', JSON.stringify(mockMovies));
 
     render(<FavoritesList />);
 

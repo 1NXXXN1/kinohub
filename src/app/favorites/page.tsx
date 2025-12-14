@@ -2,7 +2,7 @@ import { FavoritesList } from '@/widgets/favoritesList';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'KinoHub — Избранное',
+  title: 'NX Media — Избранное',
   description: 'Ваши избранные',
 };
 

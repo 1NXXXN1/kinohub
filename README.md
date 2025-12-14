@@ -35,8 +35,8 @@ A modern web application to discover and watch movies using the KinoPoisk API. B
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SmokeGuap/kinohub.git
-cd kinohub
+git clone https://github.com/SmokeGuap/nxmedia.git
+cd nxmedia
 ```
 
 #### 2. Install dependencies

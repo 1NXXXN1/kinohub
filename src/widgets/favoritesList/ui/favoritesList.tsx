@@ -7,7 +7,7 @@ export const FavoritesList = () => {
   const [favorites, setFavorites] = useState<MovieType[]>([]);
 
   useEffect(() => {
-    const stored = localStorage.getItem('kinohub-favorites');
+    const stored = localStorage.getItem('nxmedia-favorites');
     if (stored) setFavorites(JSON.parse(stored));
   }, []);
 

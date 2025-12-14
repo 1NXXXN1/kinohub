@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'KinoHub',
+  title: 'NX Media',
   description: 'Смотри все отовсюду',
 };
 
