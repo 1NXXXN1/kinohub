@@ -16,7 +16,7 @@ export const Header = () => {
         >
           <Logo />
           <span className='self-center text-2xl font-semibold whitespace-nowrap'>
-            Kino<span className='text-color3'>Hub</span>
+            NX<span className='text-color3'>Media</span>
           </span>
         </Link>
       </div>
