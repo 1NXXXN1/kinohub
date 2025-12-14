@@ -1,1 +1,1 @@
-export const API_URL = 'https://kinopoiskapiunofficial.tech/api/v2.2/films/301';
+export const API_URL = 'https://api.poiskkino.dev/v1.4';
